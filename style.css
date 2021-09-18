@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navBar {
+    background-color: black;
+    height: 50px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.navBar h1 {
+    color: white;
+    font-size: 40px;
+}
+
+#mainBox {
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+    background-color: yellow;
+    width: 95%;
+    height: 87vh;
+    margin: auto;
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+}
+
+#searchBtn { 
+    height: px;
+    border-radius: 10% 10% 10% 10%;
+    font-size: 40px;
+    padding: 10px;
+    background-color: hsl(228, 20%, 95%);
+    
+
+   
+}
+.boxOne {
+    border: 3px solid white;
+    background-color: white;
+    opacity: 100%;
+    border-radius: 10%;
+    width: 33%;
+    margin: 10%;
+}
+
+.pokeImg {
+    width: 500px;
+    height: 500px;
+}
+
+.boxTwo {
+    border: 3px solid black;
+    height: 150px;
+    width: 100%;
+    margin: 10%;
+}
+
+.btnTitle {
+    border: 1px solid black;
+    width: 300px;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.middleBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.pokeName {
+    display: flex;
+    text-align: center;
+    background-color: grey;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding: 30px;
+    height: 15%;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    
+}
+
+.abilities {
+    font-size: 30px;
+    padding: 100px;
+}
